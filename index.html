@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!--Bootstrap-->
+	<script type="text/javascript" src="Bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.css"/>
+
+	<!--Site-->
+	<script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/search.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nav.css"/>
+
+
+	<!--Slider-->
+	<script type="text/javascript" src="slider/slider.js"></script>
+	<link rel="stylesheet" type="text/css" href="slider/slider.css" />
+
+  <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+	<title>Home</title>
+</head>
+<body onload="scrollsmooth(); navbaranimation(); content_animation();">
+	<div id="home"></div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#home">MovieBud</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about_us">About</a></li>
+				<li><a href="#cineplex">Star Cineplex</a></li>
+				<li><a href="#blockbuster">Blockbuster</a></li>
+        <li><a href="#search">Search</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>Welcome to MovieBud</h1>        
+            <h3>Have a look at Star Cineplex Movies Playing & Schedules!!</h3>
+        </hgroup>
+        <a href="#cineplex"><button class="btn btn-hero btn-lg" role="button">Head Over to Cineplex</button></a>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Or Have a Look at Blockbuster Cinemas</h1>        
+            <h3>We give you both options!!</h3>
+        </hgroup>       
+        <a href="#blockbuster"><button class="btn btn-hero btn-lg" role="button">Head over to Blockbuster Cinemas</button></a>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Search for a movie you want to know about</h1>        
+            <h3>We give you both Google and Rotten Tomatoes Search Options</h3>
+        </hgroup>
+        <a href="#search"><button class="btn btn-hero btn-lg" role="button">Head over to Search</button></a>
+      </div>
+    </div>
+  </div> 
+</div>
+<div class="jumbotron" id="about_us">
+  	<div class="container">
+    	<h1 class="headline" >About Us</h1><hr>
+    	<p>Dhaka City boasts in two major movie theatres, namely <em>Blockbuster Cinemas</em> and <em>Star Cineplex</em>. These two theatres play more or less all the world renown movies most of the time at the time of their premiers. They have their separate websites and are located physically miles apart, so how to decide where to go and to watch what? Quite the dilema right?<p id="about_us_here"><em><b>See More</b></em></p>
+    	<p id="about_us_details">Well that is what we are here for. We have combined both the movie schedules of both the theatres under one roof so that it is easy for you to decide what to watch and where to watch it. Have a look at our website and decide for yourself whether or not it is worth it.</p>
+    	<!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Download Free Trial &raquo;</a> <a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
+  	</div>
+</div>
+<div class="jumbotron" id="cineplex">
+	<div class="container">
+    <div class="animation-element slide-left">
+		  <img class="img-circle" id="cineplex_logo" src="img/cineplex_logo_for_fb.jpg" height="280" width="280" alt="Generic placeholder image">
+		</div>
+    <br>
+    <div class="animation-element slide-left">
+  		<p style="margin-top: 10px;">The First Multiplex Cinema Theatre in Bangladesh STAR CINEPLEX : Show Motion Limited, incorporated in 19th December 2002, pioneered the modern Multiplex Movie Theater industry with STAR Cineplex brand in Bangladesh. With lucid vision for the entertainment development in the country, the local and foreign promoters of Show Motion Ltd. started the first international quality state-of-the-art multiplex cinema theatre on 8th October 2004 in Bangladesh at Bashundhara City Mall at Panthapath, Dhaka.</p>
+    </div>
+    <div class="animation-element slide-left">
+    	<p>STAR Cineplex now has six fully digital cinema screens with state-of-the-art 3D Projection Technology, Silver Screens, Dolby-Digital Sound and stadium seating. With a total capacity of 1,600 seats the theater has large lobby with full concession stands serving pop-corns, soft drinks, ice-creams and many other items. In addition to scheduled shows, STAR Cineplex also caters to special corporate bookings, red-carpet premieres and private events. Visit www.cineplexbd.com for updated movie schedules and online ticket purchase.</p>
+    </div>
+  	<div class="animation-element slide-left">	
+      <p><a class="btn btn-primary btn-lg" id="cineplex_button_movies" style="background-color: black; border-color: 1px solid white;" href="cineplex_movie.html" role="button">Movies &raquo;</a></p>
+    </div>
+      <p><a class="btn btn-primary btn-lg animation-element slide-left" id="cineplex_button_schedule" style="background-color: black; border-color: 1px solid white;" href="cineplex_showtime.html" role="button">Schedules &raquo;</a></p>
+  	</div>
+</div>
+<div class="jumbotron" id="blockbuster">
+	<div class="container">
+		<div class="row">
+		<div class="col-xs-6" id="blockbuster_logo_col"><img class="img-circle animation-element slide-left" id="blockbuster_logo" src="img/blockbuster_logo.jpg" style="margin-top: 20%; margin-right: 20%;" height="350" width="350" alt="Generic placeholder image"></div>
+		<br>
+  	<div class="col-xs-6" style="text-align: justify; font-weight: 300;"><p class="animation-element slide-left" style="margin-top: 10px; color: white;">Blockbuster Cinemas want to redefine the movie viewing experience to the movie fraternity of Bangladesh. Get the adrenalin running at Thrill, Expression,Iris, Transition, Montage, Exposure or the ultra luxury Club Royale.</p>
+    <h3 class="animation-element slide-left" style="color: white;">Club Royale</h3>
+    <p class="animation-element slide-left" style="color: white; font-weight: 300;">For the first time in Bangladesh, Blockbuster Cinemas brings in World Class Movie Experience at its Premium Theater experience Club Royale. Offering members sophisticated Top Line services for the Ultimate Movie Experience in Bangladesh. The Royale Club is equipped with Spacious seating facilities matched with Stylish Furnishing, to give you First Class Service and Unmatched Quality Experience.</p>
+  	<center><p><a class="btn btn-primary btn-lg animation-element slide-left" id="blockbuster_now_showing" style="background-color: black; border-color: 1px solid white;" href="blockbuster_movies.html" role="button">Movies&raquo;</a></p></center>
+    <center><p><a class="btn btn-primary btn-lg animation-element slide-left" id="blockbuster_schedule" style="background-color: black; border-color: 1px solid white;" href="blockbuster_schedule.html" role="button">Schedule&raquo;</a></p></center>
+  	</div>
+    </div>
+  </div>
+</div>
+<div class="jumbotron" id="search">
+  <div class="container" id="movie_search_home">
+    <h1 id="home_search" class="animation-element slide-left">Search Movie Details</h1>
+    <hr>
+    <h4 class="animation-element slide-left" style="color: red;"><sup>*</sup>To search for movies on rotten tomattoes please head over to the search page. Click on the <i><b>Search Page</b></i> button to go to the search page.</h4>
+    <h4 class="animation-element slide-left" style="color: red;"><sup>*</sup>To search for movies on google in this page please enter your movie name in the search box and click on the<i><b>Search Google</b></i> button</h4>
+    <h4 class="animation-element slide-left" style="color: red;"><sup>*</sup>If google search is unavailable please head over to the search page to search in rotten tomatoes</h4>
+    <br>
+    <div id="fake_7" style="display: none;"></div>
+    <center><form style="color: black">
+      <table class="animation-element slide-left" style="padding: 25px;">
+        <tr>
+          <td><label><sup style="color: red;">*</sup>Movie Name:</label></td>
+          <td><input type="text" id="google_movie" placeholder="movie name"></td>
+        </tr>
+      </table>
+      <input type="button" class="animation-element slide-left" onclick="movie_search()" name="" value="Search Google" style="margin-top: 10px; margin-left: 3em;">
+      <br>
+      <a href="search.html"><input type="button" class="animation-element slide-left" name="" value="Search Page" style="margin-top: 10px; margin-left: 3em;"></a>
+    </form><center>
+      <div class="container animation-element slide-left">
+        <div id="movie_results" class="animation-element slide-left"></div>
+      </div>
+  </div>
+</div>
+<div class="jumbotron" id="contact">
+  <div class="container">
+    <h1 class="headline animation-element slide-left">Contact Us</h1>
+    <hr>
+    <br>
+    <div class="row">
+      <div class="col-xs-6 animation-element slide-left" id="map"></div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcPXY_h56Fd1054RpgsXUXT8kZyLf88G4&callback=initMap" async defer></script>
+      <div class="col-xs-6 animation-element slide-left" id="contact_content">
+        <table>
+          <tr>
+            <td><b>Address: </b></td>
+            <td>&nbsp;House 70, Road 11/A, Dhanmondi R/A,<br>&nbsp; Dhaka - 1209, Bangladesh</td>
+          </tr>
+          <tr>
+            <td><b>Phone: </b></td>
+            <td>&nbsp;+880 1675 95 2173</td>
+          </tr>
+          <tr>
+            <td><b>Email Address: <b></td>
+            <td>&nbsp;shadman94@gmail.com</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+        <div class="container animation-element slide-left" id="footer_container">
+        <h3>&copy; 2017 MovieBud, Star Cineplex, Blockbuster Cinemas, Google, Rotten Tomatoes</h3>
+        </div>
+</footer>
+</body>
+</html>
